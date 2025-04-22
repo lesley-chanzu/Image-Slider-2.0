@@ -26,7 +26,7 @@ const Slider = () => {
                 <div className='relative sm:w-[400px] w-[320px] mt-22 lg:mt-5'>{descriptions.map((desc, index) => (
                     <p
                         key={index}
-                        className={`text-center sm:text-xl text-gray-400 absolute transition-all duration-400 ${index === firstImage ? "activeDesc" : "inactiveDesc"}`}
+                        className={`text-center sm:text-xl text-gray-300 absolute transition-all duration-400 ${index === firstImage ? "activeDesc" : "inactiveDesc"}`}
                     >{desc}</p>
                 ))}</div>
             </div>
