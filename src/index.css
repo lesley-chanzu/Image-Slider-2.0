@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* @utility centerChild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+@utility activeDesc {
+  opacity: 1;
+  visibility: visible;
+}
+
+@utility inactiveDesc {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@utility activeImage {
+  opacity: 1;
+  z-index: 1;
+}
+
+@utility inactiveImage {
+  opacity: 0.5;
+  z-index: -1;
+}
